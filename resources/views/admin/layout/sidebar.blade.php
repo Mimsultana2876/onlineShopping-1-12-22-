@@ -6,17 +6,14 @@
         <h3>General</h3>
         <ul class="nav side-menu">
             <li><a  href="{{route('admin.dashboard')}}"><i class="fa fa-home"></i>Dashboard <span class="fa fa-chevron-down"></span></a>
-            
             </li>
         </ul>
         <ul class="nav side-menu">
             <li><a href="{{url('category/addCategory')}}" ><i class="fa fa-home"></i> Category <span class="fa fa-chevron-down"></span></a>
-            
             </li>
         </ul>
         <ul class="nav side-menu">
             <li><a href="{{url('subCategory/addSub')}}" ><i class="fa fa-home"></i>Sub Category <span class="fa fa-chevron-down"></span></a>
-            
             </li>
         </ul>
         <ul class="nav side-menu">
@@ -24,6 +21,13 @@
               <ul class="nav child_menu" style="display: block;">
                     <li><a href="{{route('product.create')}}">Create</a></li>
                     <li><a href="{{route('product.list')}}">list</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="nav side-menu">
+            <li><a  ><i class="fa fa-home"></i>user Manage <span class="fa fa-chevron-down"></span></a>
+              <ul class="nav child_menu" style="display: block;">
+              <li><a href="{{route('admin.user')}}">list</a></li>
                 </ul>
             </li>
         </ul>
